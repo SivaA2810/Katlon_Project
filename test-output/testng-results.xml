@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-27T10:39:37 IST" name="Suite" finished-at="2024-07-27T10:39:42 IST" duration-ms="4639">
+    <groups>
+    </groups>
+    <test started-at="2024-07-27T10:39:37 IST" name="Test" finished-at="2024-07-27T10:39:42 IST" duration-ms="4639">
+      <class name="org.testRunner.AppointmentestRunner">
+        <test-method signature="testcase002()[pri:2, instance:org.testRunner.AppointmentestRunner@2657d4dd]" started-at="2024-07-27T10:39:39 IST" name="testcase002" finished-at="2024-07-27T10:39:40 IST" duration-ms="1145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase002 -->
+      </class> <!-- org.testRunner.AppointmentestRunner -->
+      <class name="org.testRunner.HistorytestRunner">
+        <test-method signature="testCase004()[pri:3, instance:org.testRunner.HistorytestRunner@5340477f]" started-at="2024-07-27T10:39:40 IST" name="testCase004" finished-at="2024-07-27T10:39:42 IST" duration-ms="1127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase004 -->
+      </class> <!-- org.testRunner.HistorytestRunner -->
+      <class name="org.testRunner.Positivelogin">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:org.testRunner.Positivelogin@210ab13f]" started-at="2024-07-27T10:39:33 IST" name="browserLaunch" finished-at="2024-07-27T10:39:37 IST" duration-ms="4269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://katalon-demo-cura.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="testCase003()[pri:1, instance:org.testRunner.Positivelogin@210ab13f]" started-at="2024-07-27T10:39:37 IST" name="testCase003" finished-at="2024-07-27T10:39:39 IST" duration-ms="1322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase003 -->
+      </class> <!-- org.testRunner.Positivelogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

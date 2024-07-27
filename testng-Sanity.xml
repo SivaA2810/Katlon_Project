@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite">
+ 	<listeners>
+	<listener class-name="org.utils.Utility_Listener"></listener>
+	</listeners>
+ 	<parameter name="browser" value="chrome"></parameter>
+    <parameter name="url" value="https://katalon-demo-cura.herokuapp.com/"></parameter>
+  
+  <test thread-count="1" name="Test">
+    <classes>
+    
+   	  <class name="org.testRunner.Positivelogin"/>
+      <class name="org.testRunner.AppointmentestRunner"/>
+      <class name="org.testRunner.HistorytestRunner"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
